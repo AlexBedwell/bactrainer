@@ -7,7 +7,7 @@ window.onload = function() {
 };
 $("#random-intro").click(function(){
     $("#gen-number").empty();
-    $("#total-num").clear();
+    $("#total-num").empty();
 
     let introX = Math.floor((Math.random()*400)+25);
     if(introX > 400){
