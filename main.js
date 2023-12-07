@@ -7,6 +7,8 @@ window.onload = function() {
 };
 $("#random-intro").click(function(){
     $("#gen-number").empty();
+    $("#total-num").empty();
+
     let introX = Math.floor((Math.random()*400)+25);
     if(introX > 400){
         introX -= 25;
@@ -15,6 +17,8 @@ $("#random-intro").click(function(){
 })
 $("#random-mid").click(function(){
     $("#gen-number").empty();
+    $("#total-num").empty();
+
     let midX = Math.floor((Math.random()*900)+213);
     if(midX > 900){
         midX -= 213;
@@ -24,6 +28,8 @@ $("#random-mid").click(function(){
 })
 $("#random-hard").click(function(){
     $("#gen-number").empty();
+    $("#total-num").empty();
+
     let hardX = Math.floor((Math.random()*6000)+600);
     if(hardX > 6000){
         hardX -= 600;
