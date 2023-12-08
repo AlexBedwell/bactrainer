@@ -50,7 +50,7 @@ $("#tie").click(function(){
 $("#panda").click(function(){
     $("#total-num").empty();
     let tempnumb = $("#gen-number").text();
-    let pandaTotal = tempnumb * 15;
+    let pandaTotal = tempnumb * 25;
     $("#total-num").append(pandaTotal);
  })
  $("#dragon").click(function(){
