@@ -1,3 +1,5 @@
+
+
 /*this is a program that will help train new bankers to count chips for bacarat. 
 the general premise is that a number will be generated based off one of the 3 difficutlies chosen.
 that random number is then multiplied by one of the three bonuses: tie(x8), panda(x15), or dragon(x40).
