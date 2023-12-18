@@ -91,6 +91,4 @@ function history(){
         else{
             $("#past"+(i+1)).empty();
             $("#past"+(i+1)).prepend(arr1[i]);
-        }
-    }
-}
+ 
