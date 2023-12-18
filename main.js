@@ -77,9 +77,11 @@ $("#panda").click(function(){
  })
   
 
-$("#hide").click(function(){
+$("#hide-num").click(function(){
     $("#total-num").toggle();
 })
+
+
 
 $("#history").click(function(){
     $("#hist").toggle();
