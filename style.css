@@ -1,6 +1,6 @@
 body{
     padding:1%;
-    background-color: rgb(211, 211, 211);
+    background-color: rgb(148, 159, 156);
 }
 /* button{
     width:fit-content;
@@ -82,17 +82,46 @@ button:active {
 #gen-number, #total-num{
     background-color: rgb(255, 255, 255);
 }
+#hist{
+  font: 25px bold;
+}
+.header{
+  display:flex;
+  justify-content: center;
+  text-align: center;
+}
+.container{
+  display:grid;
+  grid-template-columns: 1fr 3fr 1fr;;
+}
+.left-sidebar{
+  border-right: 1px solid rgb(103, 103, 103); 
+}
+.right-sidebar{
+  display:flex;
+  border-left: 1px solid rgb(103, 103, 103); 
+  padding-left: 5%;
+  justify-content: center;
+}
 
 .difficulty-lvls, .bonus, .final-num{
     display:flex;
-
+    flex-wrap: wrap;
     align-content: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-bottom: 5%;
     margin-top:2%;
     padding:0;
 }
+.difficulty-lvls{
+  /*background-color: rgb(138, 135, 135);*/
+  padding-bottom:5%;
+}
 .random-gen{
     display:flex;
     justify-content: center;
+}
+.rdm{
+  margin-top: 2%;
+  margin-bottom:2%;
 }
