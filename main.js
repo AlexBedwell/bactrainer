@@ -5,7 +5,6 @@ the general premise is that a number will be generated based off one of the 3 di
 that random number is then multiplied by one of the three bonuses: tie(x8), panda(x15), or dragon(x40).
 */
 window.onload = function() {
-
 };
 
 let arr1=[];
@@ -84,7 +83,8 @@ $("#hide-num").click(function(){
 
 
 $("#history").click(function(){
-    $("#hist").toggle();
+        $("#hist").toggle("fast");
+    
     })
 function history(){
 
@@ -96,4 +96,7 @@ function history(){
  
         }
     }
+}
+function temp (){
+    $("#hist").slideDown();
 }
